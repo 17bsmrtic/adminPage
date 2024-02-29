@@ -12,8 +12,10 @@
 }
 
 .sidebar{
-    background-color: blue;
+    background-color: #1fb6ff;
     grid-row: span 2;
+    display:grid;
+    
 }
 
 .header{
@@ -21,7 +23,7 @@
 }
 
 .content {
-    background-color: grey;
+    background-color: #d3dce6;
     display:grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -29,4 +31,21 @@
 
 .projects{
     grid-row: span 2;
+}
+
+img{
+    width: 40px;
+    object-fit: cover;
+    
+    
+}
+
+.sidebar > div {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    /* color: white; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
 }
